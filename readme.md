@@ -1,6 +1,8 @@
 # JSON BUILDER
 命令式创建 json 配置
 
+![ci](https://github.com/loatheb/json-builder/workflows/ci/badge.svg)
+
 ## 使用
 只有一个 toJSON 方法，来将创建的 json 结构解析为原生对象
 
