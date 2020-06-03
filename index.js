@@ -1,5 +1,5 @@
 /* eslint-disable no-param-reassign */
-export default function createJSON() {
+module.exports = function createJSON() {
   let id = 0;
 
   function normalize(target, result = {}) {
@@ -72,4 +72,4 @@ export default function createJSON() {
   }
 
   return proxyConfigFactory(denormalize({}));
-}
+};
