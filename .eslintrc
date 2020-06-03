@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "@mindhand-io"
+  ],
+  "parserOptions": {
+    // 这个选项必填，因为使用了 plugin:@typescript-eslint/recommended-requiring-type-checking
+    "project": "./tsconfig.json"
+  }
+}
